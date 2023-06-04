@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MERN Assignment</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .card {
+            flex-basis: calc(33.33% - 20px);
+            margin: 10px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: scale(1.05);
+        }
+        
+        .card a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .card img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .card1{
+            margin-right: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>MERN Assignment</h1>
+        <p>Name: Abhijay</p>
+        <p>Registration Number: 20BCY10086</p>
+    </div>
+
+    <div class="card-container">
+        <div class="card" id="card1">
+            <img src="pxfuel (1).jpg" alt="Assignment 1">
+            <h3>HTML</h3>
+            <a href="https://www.example.com/assignment1">View Assignment</a>
+        </div>
+        
+        <div class="card">
+            <img src="pxfuel (2).jpg" alt="Assignment 2">
+            <h3>CSS</h3>
+            <a href="https://www.example.com/assignment2">View Assignment</a>
+        </div>
+        <a href="bootstrap.html" target="_blank">
+        <div class="card">
+            <img src="pxfuel (3).jpg" alt="Assignment 3">
+            <a href="bootstrap.html"> <h3>Bootstrap</h3> </a> 
+            <a href="bootstrap.html">View Assignment</a>
+        </div>
+    </a>
+
+        <div class="card">
+            <img src="pxfuel (4).jpg" alt="Assignment 3">
+            <h3>JavaScript</h3>
+            <a href="https://www.example.com/assignment3">View Assignment</a>
+        </div>
+    </div>
+</body>
+</html>
